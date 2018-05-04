@@ -1,21 +1,26 @@
 body{
   background-color: #FFFFFF;
   background-image:url("../images/pingbackground.jpg");
-  color: white;
+  color: black;
 
 }
 
 
 .pingheader{
   text-align: 30px;
-  color: white;
+  color: black;
 }
 
 
 .editping{
-padding-left:250px;
+padding-left:30px;
+background-color: lightgrey;
+margin: 220px;
+margin-left: 480px;
+margin-right: 380px;
+
 
 }
 #Results{
-  color: white;
+  color: black;
 }
