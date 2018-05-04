@@ -1,5 +1,5 @@
-// Business Logic.
 
+// Business Logic.
 function mypingfunction(myresult){
   var pparray = [];
 
@@ -17,17 +17,19 @@ function mypingfunction(myresult){
 return pparray;
 }
 
+
+
+
+
 // User Interface.
 $(document).ready(function(){
   $("form#pingform").submit(function(event){
-       // event.preventDefault();
     $("#Results").empty();
     var myresult = parseInt($("input#anumeral").val());
      var pparray = mypingfunction(myresult);
-     pparray.forEach(function(myouttput){
-       $("#Results").append(myouttput + "</br>");
+     pparray.forEach(function(myoutput){
+       $("#Results").append(myoutput + "</br>");
        event.preventDefault();
      });
-
   });
 });
