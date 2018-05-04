@@ -1,4 +1,5 @@
 // Business Logic.
+
 function mypingfunction(myresult){
   var pparray = [];
 
@@ -13,9 +14,8 @@ function mypingfunction(myresult){
       pparray.push(i);
     }
   }
-
-
-
+return pparray;
+}
 
 // User Interface.
 $(document).ready(function(){
