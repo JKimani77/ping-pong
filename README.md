@@ -1,5 +1,5 @@
 Ping Pong Number and Word Game.
-#### {Brief description of application}, {Date of current version}
+#### {It is a number and word game}, {4/05/2018}
 #### By (Project Site Author): Joshua Kimani.
 
 
@@ -27,6 +27,7 @@ pull requests are encouraged## Known Bugs
 
 
 ## Support and contact details
+Here's a link to my site; https://jkimani77.github.io/ping-pong/
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 
 
